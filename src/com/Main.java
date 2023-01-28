@@ -48,13 +48,15 @@ public class Main {
         persegiPanjang.RectangleMethod();
         break;
       case 3:
-        // Circle();
+        Circle lingkaran = new Circle("Lingkaran");
+        lingkaran.CircleMethod();
         break;
       case 4:
         // Triangle();
         break;
       case 5:
-        // Trapesium();
+        Trapezium trapesium = new Trapezium("Trapesium");
+        trapesium.TrapeziumMethod();
         break;
       case 6:
         // JajarGenjang();
