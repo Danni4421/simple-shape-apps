@@ -64,7 +64,8 @@ public class Main {
         jajargenjang.JajarGenjangMethod();
         break;
       case 7:
-        BelahKetupat belahKetupat = new BelahKetupat("");
+        BelahKetupat belahKetupat = new BelahKetupat("Belah Ketupat");
+        belahKetupat.belahKetupatMethod();
         break;
       case 8:
         // LayangLayang();
