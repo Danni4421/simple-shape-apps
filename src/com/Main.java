@@ -52,17 +52,19 @@ public class Main {
         lingkaran.CircleMethod();
         break;
       case 4:
-        // Triangle();
+        Triangle segitiga = new Triangle("Segitiga");
+        segitiga.TriangleMethod();
         break;
       case 5:
         Trapezium trapesium = new Trapezium("Trapesium");
         trapesium.TrapeziumMethod();
         break;
       case 6:
-        // JajarGenjang();
+        JajarGenjang jajargenjang = new JajarGenjang("Jajar Genjang");
+        jajargenjang.JajarGenjangMethod();
         break;
       case 7:
-        // BelahKetupat();
+        BelahKetupat belahKetupat = new BelahKetupat("");
         break;
       case 8:
         // LayangLayang();
