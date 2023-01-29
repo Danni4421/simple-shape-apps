@@ -68,7 +68,8 @@ public class Main {
         belahKetupat.belahKetupatMethod();
         break;
       case 8:
-        // LayangLayang();
+        LayangLayang layanglayang = new LayangLayang("Layang Layang");
+        layanglayang.LayangLayangMethod();
         break;
       default:
         System.out.println("Tidak Jadi");
